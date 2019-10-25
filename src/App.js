@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{Component}  from 'react';
+import HeaderNav from './containers/HeaderNav/HeaderNav';
 
-function App() {
-  return (
-    <div>Hello Everyone !</div>
-  );
+class App extends Component{
+  render(){
+    return (
+      <HeaderNav />
+    );
+  }
 }
 
 export default App;
