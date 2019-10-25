@@ -4,14 +4,14 @@ As a youtube addict, I cant begin to describe how much time I spend on the platf
 
 ### Tech stack used with this app
 
--> React - scafollded with (create-react-app 2.x)
--> Redux 
--> Redux-reselect
--> Redux-saga
--> SCSS (App layout and component styling)
--> Semantic UI (Couple of conviniance components were abstracted to be used with the project)
--> Jest
--> Enzyme
+* React - scafollded with (create-react-app 2.x)
+* Redux 
+* Redux-reselect
+* Redux-saga
+* SCSS (App layout and component styling)
+* Semantic UI (Couple of conviniance components were abstracted to be used with the project)
+* Jest
+* Enzyme
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
