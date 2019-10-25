@@ -1,3 +1,19 @@
+## Youtube Clone App
+
+As a youtube addict, I cant begin to describe how much time I spend on the platform. The simple UI, straight forward functionality blazing speed and overall amazing experience.  So I decided to test my development skills by making a clone of the app, using the current tech stack i'm working with.
+
+### Tech stack used with this app
+
+-> React - scafollded with (create-react-app 2.x)
+-> Redux 
+-> Redux-reselect
+-> Redux-saga
+-> SCSS (App layout and component styling)
+-> Semantic UI (Couple of conviniance components were abstracted to be used with the project)
+-> Jest
+-> Enzyme
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
