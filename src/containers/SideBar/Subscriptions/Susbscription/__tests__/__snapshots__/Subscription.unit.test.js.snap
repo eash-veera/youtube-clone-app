@@ -1,6 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Subscription 1`] = `
+exports[`Subscription Renders breadcasting subscription 1`] = `
+<MenuItem>
+  <div
+    className="subscription"
+  >
+    <div>
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span>
+        Kanywest
+      </span>
+    </div>
+    <Icon
+      as="i"
+      name="signal"
+    />
+  </div>
+</MenuItem>
+`;
+
+exports[`Subscription Renders empty subscription 1`] = `
 <MenuItem>
   <div
     className="subscription"
@@ -14,6 +38,31 @@ exports[`renders Subscription 1`] = `
       />
       <span />
     </div>
+  </div>
+</MenuItem>
+`;
+
+exports[`Subscription Renders non-breadcasting subscription with new videos 1`] = `
+<MenuItem>
+  <div
+    className="subscription"
+  >
+    <div>
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span>
+        Halsey Music
+      </span>
+    </div>
+    <span
+      className="new-videos-count"
+    >
+      8
+    </span>
   </div>
 </MenuItem>
 `;
