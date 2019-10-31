@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes <Watch /> with empty props 1`] = `
+<div>
+  Watch Component goes here !
+</div>
+`;
