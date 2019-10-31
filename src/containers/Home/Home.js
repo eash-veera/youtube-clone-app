@@ -1,13 +1,20 @@
-import React,{ Component } from 'react';
-import { VideoPreview } from '../../components/VideoPreview/VideoPreview';
+import React,{ Component, Fragment } from 'react';
 import './Home.scss';
+import { VideoGrid } from '../../components/VideoGrid/VideoGrid';
+import Sidebar from '../SideBar/SideBar';
 
 class Home extends Component{
     render(){
         return (
-            <div className='home'>
-                <VideoPreview />
-            </div>
+            <Fragment>
+                <Sidebar />
+                <div className='home'>
+                    <div className='responsive-video-grid-container'>
+                        <VideoGrid title='Trending' />
+                        <VideoGrid title='Autos & Vehicle' hideDivider={true} />
+                    </div>
+                </div>
+            </Fragment>
         );
     }
 };
