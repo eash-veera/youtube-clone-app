@@ -3,9 +3,17 @@ import { shallow } from 'enzyme';
 import { VideoPreview } from '../VideoPreview';
 
 describe('VideoPreview', () => {
-    test('renders', () => {
+
+    test('renders verticaly', () => {
         const wrapper = shallow(
             <VideoPreview />
+        );
+        expect(wrapper).toMatchSnapshot();
+    });
+
+    test('renders horizontaly', () => {
+        const wrapper = shallow(
+            <VideoPreview horizontal={true}/>
         );
         expect(wrapper).toMatchSnapshot();
     });

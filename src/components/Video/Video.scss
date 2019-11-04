@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
 
+    // pseduo block element to make sure that aspect ratio is maintained !
     &:before{
         content:"";
         display:block;
