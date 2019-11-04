@@ -1,7 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renderes <Watch /> with empty props 1`] = `
-<div>
-  Watch Component goes here !
+exports[`Watch renderes 1`] = `
+<div
+  className="watch-grid"
+>
+  <Video
+    className="video"
+    id="7fuHEEmEjs"
+  />
+  <div
+    className="metadata"
+    style={
+      Object {
+        "background": "#F91112",
+        "height": "100px",
+        "width": "100%",
+      }
+    }
+  >
+    Metadata
+  </div>
+  <div
+    className="video-info-box"
+    style={
+      Object {
+        "background": "#BD10E0",
+        "height": "100px",
+        "width": "100%",
+      }
+    }
+  >
+    Video Info Box
+  </div>
+  <div
+    className="comments"
+    style={
+      Object {
+        "background": "#9013FE",
+        "height": "100px",
+        "width": "100%",
+      }
+    }
+  >
+    Comments
+  </div>
+  <RelatedVideos
+    className="relatedVideos"
+  />
 </div>
 `;
