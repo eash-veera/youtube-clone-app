@@ -8,4 +8,7 @@ https://react.semantic-ui.com/usage/
 
 * CSS Grid Usage
 https://css-tricks.com/snippets/css/complete-guide-grid/
+
+## Redux setup
+episode 18
  
