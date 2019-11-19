@@ -6,7 +6,7 @@ import { SideBarHeader } from './SideBarHeader/SideBarHeader';
 import { Subscriptions } from './Subscriptions/Subscriptions';
 import SideBarFooter from './SideBarFooter/SideBarFooter';
 
-class SideBar extends Component {
+export class SideBar extends Component {
     render() {
         return (
             <Menu borderless vertical stackable fixed='left' className='sidebar-nav'>
@@ -32,5 +32,3 @@ class SideBar extends Component {
         );
     }
 }
-
-export default SideBar;
