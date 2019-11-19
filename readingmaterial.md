@@ -15,7 +15,7 @@ episode 18
 ## Youtube Data API
 https://developers.google.com/youtube/v3/docs/
 
-key=API_KEY AIzaSyCsm-Y7Lkvc1dj6lRIQusuRkpkSnx9akyg
+
 
 ## Redux selector
 
